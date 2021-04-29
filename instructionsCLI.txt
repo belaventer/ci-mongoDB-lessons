@@ -9,3 +9,15 @@ Create env.py and .gitignore (already done for this project)
 Add all to staging area > git add -A
 
 First commit just after the Flask App creation > git commit -m "Create the Flask App"
+
+Include the app requirementes for Heroku > pip3 freeze --local > requirements.txt
+
+Include the Procfile requirements for Heroku > echo web: python app.py > Procfile
+    Note: delete blank line created automatically on Procfile
+
+On Heroku, create your app
+    Connect your app with GitHub
+    Set up the env keys under Settings
+    Commit and Push both requirements.txt and Procfile (individual commits)
+    On Heroku enable auto deployement.
+
