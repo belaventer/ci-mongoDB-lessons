@@ -21,3 +21,10 @@ On Heroku, create your app
     Commit and Push both requirements.txt and Procfile (individual commits)
     On Heroku enable auto deployement.
 
+Install flask-Mongo library > pip3 install flask-pymongo
+
+Install DNSpython package > pip3 install dnspython
+
+Update requirements.txt > pip3 freeze --local > requirements.txt
+
+Create templates folder to set Flask templates inside
