@@ -1,0 +1,11 @@
+Create the Database on MongoDB first
+
+Install Flask > pip3 install Flask
+
+Create main Python App > touch app.py
+
+Create env.py and .gitignore (already done for this project)
+
+Add all to staging area > git add -A
+
+First commit just after the Flask App creation > git commit -m "Create the Flask App"
