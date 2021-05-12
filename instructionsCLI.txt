@@ -28,3 +28,6 @@ Install DNSpython package > pip3 install dnspython
 Update requirements.txt > pip3 freeze --local > requirements.txt
 
 Create templates folder to set Flask templates inside
+    For the base template: The standard convention for the main section of your site is to call this block 'content'.
+
+Remember to commit often!
