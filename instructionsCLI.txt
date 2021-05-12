@@ -31,3 +31,5 @@ Create templates folder to set Flask templates inside
     For the base template: The standard convention for the main section of your site is to call this block 'content'.
 
 Remember to commit often!
+
+Framework used is Materialize, also JQuery and FontAwesome. Links completed on the baase.html
