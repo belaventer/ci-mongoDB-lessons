@@ -97,7 +97,12 @@ def logout():
     session.pop("user")
     return redirect(url_for("login"))
 
-    
+
+@app.route("/add_task")
+def add_task():
+    return render_template("add_task.html")
+
+
 # Call the Flask application. Note: set debug=False before submission
 if __name__ == "__main__":
     app.run(host=os.environ.get("IP"),
