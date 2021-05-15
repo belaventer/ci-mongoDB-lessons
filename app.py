@@ -100,7 +100,8 @@ def logout():
 
 @app.route("/add_task")
 def add_task():
-    return render_template("add_task.html")
+    categories = list(mongo.db.categories.find().sort("category_name", 1))
+    return render_template("add_task.html", categories=categories)
 
 
 # Call the Flask application. Note: set debug=False before submission
