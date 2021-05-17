@@ -33,3 +33,8 @@ Create templates folder to set Flask templates inside
 Remember to commit often!
 
 Framework used is Materialize, also JQuery and FontAwesome. Links completed on the baase.html
+
+For searching we need to create indexes on the database. From the CLI:
+    > python3
+    > from app import mongo
+    > mongo.db.tasks.create_index([("task_name", "text"), ("task_description", "text")])
